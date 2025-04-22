@@ -1,12 +1,12 @@
 <h1 align="center">
-  Sushi Ordering System
+  Sistema de Pedidos de Sushi
 </h1>
 
-## 🍣 Projeto
+## Descrição
 
-A API de Sistema de Pedidos de Sushi foi desenvolvida para os clientes realizarem pedidos de sushi online. Com esta API, os clientes visualizam o cardápio (categorias), os produtos dentro de cada categoria e realizam os pedidos. Para os funcionários, a API oferece ferramentas para gerenciar o cardápio e produtos, processar pedidos e administrar clientes.
+Esse projeto foi desenvolvido para os clientes realizarem pedidos de sushi online. Com esta API, os clientes visualizam o cardápio, os produtos dentro de cada categoria e realizam os pedidos. 
 
-Foram implementadas no projeto as funcionalidades de autenticação e autorização, assegurando que apenas clientes autenticados possam fazer pedidos e que apenas os administradores tenham acesso a todas as funcionalidades.
+Para os funcionários, a API oferece ferramentas para gerenciar o cardápio e produtos, processar pedidos e administrar clientes.
 
 <details>
     <summary><b>Categorias</b></summary>
@@ -25,20 +25,19 @@ Foram implementadas no projeto as funcionalidades de autenticação e autorizaç
     <img src="./media/customer.png" alt="Cliente">
 </details>
 
-## 🥷 Tecnologias
+## Tecnologias
 
 - Linguagem: Java
-- Framework: Spring Boot (Web, Jpa, Security)
+- Framework:
 - Banco de Dados: PostgreSQL
 - Maven
 - Flyway Migrations
 - Java JWT
-- JUnit 5
+- JUnit
 - Mockito
-- Jackson Dataformat XML
 - Spring Validation
 
-## ☁️ Deploy
+## Deploy
 A API está hospedada no [Render](https://render.com/) e pode demorar um pouco para carregar.
 
 - **Acessar a Documentação da API no Render**: https://sushi-ordering-system.onrender.com/swagger-ui/index.html
@@ -46,7 +45,7 @@ A API está hospedada no [Render](https://render.com/) e pode demorar um pouco p
 - **Coleção JSON com as Requisições HTTP (Postman ou Insomnia)**: [Collection](media/sushi_ordering_system_collection.json)
 
 
-## 🔎 Diagramas
+## Diagramas
 <details>
     <summary>Diagrama de Classes</summary>
     <img src="./media/sushi-uml.png" alt="Diagrama de Classes">
@@ -56,14 +55,14 @@ A API está hospedada no [Render](https://render.com/) e pode demorar um pouco p
     <img src="./media/db-diagram.png" alt="Diagrama de Entidade e Relacionamento">
 </details>
 
-## ⚒️ Configuração e Execução
-Pré-requisito: Java 17
+## Configuração e Execução
+Pré-requisito: Java 17 e Maven
 1. Clone o repositório
 2. Instale as dependências do **pom.xml** com Maven
 3. Crie o database no PostgreSQL com as configurações do **application.properties**
 4. Execute o **Application.java**
 
-## 👩‍💻 Autor
+### Autor
 Isabel Henrique
 
 https://www.linkedin.com/in/isabel-henrique/
