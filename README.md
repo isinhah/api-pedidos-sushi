@@ -1,68 +1,104 @@
-<h1 align="center">
-  Sistema de Pedidos de Sushi
-</h1>
+# 🍣 Sistema de Pedidos de Sushi
 
-## Descrição
+---
 
-Esse projeto foi desenvolvido para os clientes realizarem pedidos de sushi online. Com esta API, os clientes visualizam o cardápio, os produtos dentro de cada categoria e realizam os pedidos. 
+## 📄 Descrição
+
+Esse projeto foi desenvolvido para os clientes realizarem pedidos de sushi online. Com esta API, os clientes visualizam o cardápio, os produtos dentro de cada categoria e realizam os pedidos.
 
 Para os funcionários, a API oferece ferramentas para gerenciar o cardápio e produtos, processar pedidos e administrar clientes.
 
+---
+
+## ⚙️ Funcionalidades
+
+- **Visualização do cardápio**: Clientes podem navegar por categorias e produtos disponíveis.
+- **Realização de pedidos**: Clientes podem criar e finalizar pedidos.
+- **Gestão de cardápio**: Funcionários podem gerenciar categorias e produtos.
+- **Processamento de pedidos**: Funcionários podem acompanhar e processar pedidos.
+- **Administração de clientes**: Funcionários podem gerenciar informações dos clientes.
+
+---
+
+## 🗂️ Imagens do Projeto
+
 <details>
-    <summary><b>Categorias</b></summary>
-    <img src="./media/categories.png" alt="Categorias">
+    <summary><b>Categorias</b></summary>
+    <img src="./media/categories.png" alt="Categorias">
 </details>
 <details>
-    <summary><b>Produtos</b></summary>
-    <img src="./media/products.png" alt="Produtos">
+    <summary><b>Produtos</b></summary>
+    <img src="./media/products.png" alt="Produtos">
 </details>
 <details>
-    <summary><b>Pedidos</b></summary>
-    <img src="./media/orders.png" alt="Pedidos">
+    <summary><b>Pedidos</b></summary>
+    <img src="./media/orders.png" alt="Pedidos">
 </details>
 <details>
-    <summary><b>Cliente</b></summary>
-    <img src="./media/customer.png" alt="Cliente">
+    <summary><b>Cliente</b></summary>
+    <img src="./media/customer.png" alt="Cliente">
 </details>
 
-## Tecnologias
+---
 
-- Linguagem: Java
-- Framework:
-- Banco de Dados: PostgreSQL
+## 🛠️ Tecnologias
+
+- **Linguagem**: Java
+- **Framework**: Spring Boot
+- **Gerenciador de Dependências**: Maven
+- **Banco de Dados**: PostgreSQL
+- **Migração de Banco**: Flyway Migrations
+- **Segurança**: Java JWT
+- **Testes**: JUnit, Mockito
+- **Validação**: Spring Validation
+- **Documentação da API**: SwaggerUI
+
+---
+
+## 📝 Endpoints
+
+- **Documentação online**: https://sushi-ordering-system.onrender.com/swagger-ui/index.html
+- **Documentação local**: http://localhost:8080/swagger-ui/index.html#/
+- **Coleção com requisições HTTP**: [Collection](media/sushi_ordering_system_collection.json)
+
+---
+
+## 📈 Diagramas
+
+<details>
+    <summary><b>Diagrama de Classes</b></summary>
+    <img src="./media/sushi-uml.png" alt="Diagrama de Classes" width=900>
+</details>
+<details>
+    <summary><b>Diagrama de Entidade e Relacionamento</b></summary>
+    <img src="./media/db-diagram.png" alt="Diagrama de Entidade e Relacionamento" width=800>
+</details>
+
+---
+
+## ⚙️ Configuração e Execução
+
+**Pré-requisitos**:
+
+- Java 17
 - Maven
-- Flyway Migrations
-- Java JWT
-- JUnit
-- Mockito
-- Spring Validation
+- PostgreSQL
 
-## Deploy
-A API está hospedada no [Render](https://render.com/) e pode demorar um pouco para carregar.
+**Passos para Configuração**:
 
-- **Acessar a Documentação da API no Render**: https://sushi-ordering-system.onrender.com/swagger-ui/index.html
-- **Acessar a Documentação da API localmente**: http://localhost:8080/swagger-ui/index.html#/
-- **Coleção JSON com as Requisições HTTP (Postman ou Insomnia)**: [Collection](media/sushi_ordering_system_collection.json)
-
-
-## Diagramas
-<details>
-    <summary>Diagrama de Classes</summary>
-    <img src="./media/sushi-uml.png" alt="Diagrama de Classes">
-</details>
-<details>
-    <summary>Diagrama de Entidade e Relacionamento</summary>
-    <img src="./media/db-diagram.png" alt="Diagrama de Entidade e Relacionamento">
-</details>
-
-## Configuração e Execução
-Pré-requisito: Java 17 e Maven
 1. Clone o repositório
-2. Instale as dependências do **pom.xml** com Maven
-3. Crie o database no PostgreSQL com as configurações do **application.properties**
-4. Execute o **Application.java**
+2. Acesse o diretório do projeto
+3. Configure o banco de dados no arquivo `application.properties` (URL, usuário, senha)
 
-### Autor
-Isabel Henrique
+```bash
+# Execute a aplicação
+mvn spring-boot:run
 
-https://www.linkedin.com/in/isabel-henrique/
+# Pressione (CTRL + C) para encerrar a aplicação
+```
+
+## 🙋‍♀️ Autor
+
+👩‍💻 Projeto desenvolvido por [Isabel Henrique](https://www.linkedin.com/in/isabel-henrique/)
+
+🤝 Fique à vontade para contribuir!
