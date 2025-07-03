@@ -97,6 +97,8 @@ mvn spring-boot:run
 # Pressione (CTRL + C) para encerrar a aplicação
 ```
 
+---
+
 ## 🙋‍♀️ Autor
 
 👩‍💻 Projeto desenvolvido por [Isabel Henrique](https://www.linkedin.com/in/isabel-henrique/)
